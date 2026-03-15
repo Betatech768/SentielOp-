@@ -1,0 +1,106 @@
+
+
+# ── CRITICAL: Environment variables ───────────────────
+# Never commit real credentials
+backend/.env
+backend/.env.*
+.env
+.env.*
+*.env
+
+
+# ── Python virtual environment ─────────────────────────
+# Your venv is at backend/sentielOp/
+backend/sentielOp/
+backend/venv/
+backend/.venv/
+.venv/
+venv/
+
+
+# ── Python cache ──────────────────────────────────────
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+
+
+# ── Python build artefacts ────────────────────────────
+dist/
+build/
+wheels/
+sdist/
+eggs/
+parts/
+var/
+pip-wheel-metadata/
+
+
+# ── AWS credentials ───────────────────────────────────
+.aws/
+aws-credentials.json
+*.pem
+certs/
+
+
+# ── Node / Frontend ───────────────────────────────────
+frontend/node_modules/
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+dist/
+dist-ssr/
+*.local
+
+
+# ── Logs ──────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# ── Database files ────────────────────────────────────
+*.db
+*.sqlite3
+
+
+# ── Testing ───────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+backend/test.py
+
+
+# ── Type checking ─────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+
+
+# ── IDE ───────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+
+# ── OS ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+
+# ── Jupyter ───────────────────────────────────────────
+.ipynb_checkpoints/

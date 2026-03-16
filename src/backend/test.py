@@ -1,6 +1,6 @@
 import psycopg2
 import boto3
-
+load_dotenv()
 _user     = os.getenv("DB_USER")
 _password = os.getenv("DB_PASSWORD")
 _host     = os.getenv("DB_HOST")

@@ -1,7 +1,7 @@
 import psycopg2
 import boto3
 
-password = "IsaacGoodness"
+password = AWS_PASSWORD
 
 conn = None
 try:
